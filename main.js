@@ -167,7 +167,7 @@ function checarSiEsPar() {
         }, 500)
     }
 
-    puntajeDisplay.textContent = numeroDeParsEncontradas
+    puntajeDisplay.textContent = numeroDeParesEncontrados
     intentosDisplay.textContent = numeroDeIntentos
 
     if (numeroDeParesEncontrados*2 === tarjetas.length) {
